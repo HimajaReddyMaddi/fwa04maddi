@@ -4,6 +4,7 @@ var router = express.Router();
 /* GET users listing. */
 router.get('/', function(req, res, next) {
   var x=0;
+  x++;
   res.send(`User accesses are: ${x}`);
   x++;
  
